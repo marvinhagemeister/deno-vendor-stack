@@ -1,0 +1,12 @@
+{
+  "vendor": true,
+  "denoModulesDir":true,
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "preact": "https://esm.sh/preact",
+    "preact/": "https://esm.sh/preact/",
+    "preact-render-to-string": "https://esm.sh/preact-render-to-string"
+  }
+}
